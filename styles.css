@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1f2937;
+    margin-bottom: 34px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    color: #e5e7eb;
+}
+
+ul > li > a {
+    color: #e5e7eb;
+}
+
+.logo {
+    color: #fff;
+}
+
+.hero {
+    margin-top: 68px;
+    margin-bottom: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    display: flex;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+}
+
+.hero-text,
+.hero-image {
+    flex: 1 1 auto;
+    max-width: 550px;
+}
+
+.hero-image {
+    border-radius: 10px;
+}
+
+.button {
+    padding: 5px 25px;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    border-width: none;
+    border-color: none;
+}
+
+.button.hero-button {
+    background-color: #3882f6;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 68px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    max-width: 150px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.cards .card p {
+    padding: 16px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 68px 0px;
+    margin-bottom: 68px;
+}
+
+.quote-section div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f293b;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #1f293b;
+    font-weight: bold;
+}
+
+section.container.last-section {
+    padding: 500px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 25px 50px;
+    border-radius: 10px;
+    margin-bottom: 68px;
+}
+
+.container.last-section p {
+    color: #e5e7eb;
+}
+
+.button.last-button {
+   background-color: transparent;
+   border: 1px solid #fff;
+}
